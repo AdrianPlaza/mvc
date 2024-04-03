@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Home{% endblock %}</title>
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+            {% block importmap %}{{ importmap('app') }}{% endblock %}
+        {% endblock %}
+    </head>
+<body>
+    <ul id="api-list">
+        <li><a href="{{ path('index') }}">Home</a></li>
+        <li><a href="{{ path('about') }}">About</a></li>
+        <li><a href="{{ path('report') }}">Report</a></li>
+        <li><a href="{{ path('lucky') }}">Lucky</a></li>
+        <li><a href="{{ path('api') }}">Api</a></li>
+        <li><a href="{{ path('quote') }}">Quote</a></li>
+    </ul>
+</body>
+</html>

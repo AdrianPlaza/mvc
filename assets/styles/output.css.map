@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,MAAO;EACH,KAAK,ECHI,OAAO",
+"sources": ["input.scss","variables.scss"],
+"names": [],
+"file": "output.css"
+}

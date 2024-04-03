@@ -1,3 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&display=swap");
+* {
+  margin: 0; }
+
+nav {
+  background-color: #B8C3C8;
+  height: 60px;
+  display: flex;
+  align-items: center; }
+  nav ul {
+    list-style-type: none;
+    font-size: 200%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Noto Sans Devanagari", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    width: 100%; }
+  nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold; }
+  nav a:visited {
+    color: #000; }
+  nav a:hover {
+    color: #8DB5C7; }
+
 body {
-    background-color: skyblue;
-}
+  background-color: #e0edf3; }
+
+#title {
+  font-family: "Inter", sans-serif;
+  width: 30%;
+  color: #0F3648;
+  font-size: 250%;
+  margin: 15px; }
+
+.title-small {
+  font-family: "Inter", sans-serif;
+  width: 30%;
+  color: #0F3648;
+  font-size: 180%;
+  margin: 5px; }
+
+#text {
+  font-family: "Inter", sans-serif;
+  color: #0F3648;
+  width: 30%;
+  font-size: 130%;
+  margin: 10px; }
+
+#me-text-box {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+#giant-text {
+  font-size: 300px;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  animation-name: colorChange;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  margin: 15px; }
+
+@keyframes colorChange {
+  0% {
+    color: red; }
+  25% {
+    color: blue; }
+  50% {
+    color: green; }
+  75% {
+    color: orange; }
+  100% {
+    color: red; } }
+#header {
+  font-family: "Noto Sans Devanagari", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 50px;
+  background-color: #3F5058;
+  color: #fff;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #header h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3F5058;
+  color: #fff;
+  width: 100%;
+  height: 80px;
+  font-family: "Noto Sans Devanagari", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200; }
+
+img {
+  margin: 15px; }
+
+#api-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: space-evenly;
+  flex-direction: column;
+  list-style-type: none; }
+  #api-list li {
+    font-size: 200%; }
+    #api-list li a {
+      font-style: none; }
+
+/*# sourceMappingURL=app.css.map */
