@@ -115,7 +115,16 @@ footer {
   height: 80px;
   font-family: "Noto Sans Devanagari", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200; }
+  font-weight: 200; 
+  bottom: 0;
+  left: 0;
+  position: fixed;
+}
+
+#footer-box {
+  height: 80px;
+  width: 100%;
+}
 
 img {
   margin: 15px; }
