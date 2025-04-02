@@ -22,7 +22,7 @@ Now that we have the directory we want to initiatie the course repo so we do the
 
 ```bash
 akronym:~/dbwebb-kurser/mvc$ dbwebb init     // This creates the me/ directory
-akronym:~/dbwebb-kurser/mvc$ cd me/report    // Now we are in the report directory
+akronym:~/dbwebb-kurser/mvc$ cd me/report    // Move into the report directory
 ```
 
 ### Step 3. Cloning the github repo
