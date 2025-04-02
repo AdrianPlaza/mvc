@@ -1,7 +1,7 @@
 This my website for the model view controller course
 ====================
 
-This website is made with symfony and built through the model view controller design pattern. This readme is a step gy step to download the repo
+This website is made with symfony and built through the model view controller design pattern. This readme is a step by step to download the repo
 
 Dowloading the repo
 ====================
