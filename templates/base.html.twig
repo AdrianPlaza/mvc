@@ -9,7 +9,6 @@
 
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
-            {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
     </head>
     <body>
@@ -24,8 +23,10 @@
         </nav>
         {% block body %}{% endblock %}
     </body>
+    
     <footer>
         <h1>Akronym: adpl22</h1>
         <h1>Namn: Adrian Plaza</h1>
     </footer>
+    <div id="footer-box"></div>
 </html>
